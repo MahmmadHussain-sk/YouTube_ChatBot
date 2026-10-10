@@ -1,0 +1,13 @@
+# requirements.txt
+# Install everything with: pip install -r requirements.txt
+
+streamlit           # UI framework that runs the chatbot in the browser
+langchain            # Core LangChain framework (latest as of Aug 2026)
+langchain-groq        # Lets LangChain talk to Groq's LLMs (replaces OpenAI)
+langchain-text-splitters  # Splits long transcript text into chunks
+langchain-huggingface     # Free local embedding model (turns text into vectors)
+langchain-community      # Provides the FAISS vector store wrapper
+faiss-cpu           # The actual vector database (stores + searches vectors)
+sentence-transformers # Backend used by the HuggingFace embedding model
+youtube-transcript-api  # Fetches YouTube subtitles/transcripts
+python-dotenv         # Loads GROQ_API_KEY from the .env file

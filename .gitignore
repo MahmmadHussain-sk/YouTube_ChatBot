@@ -1,0 +1,12 @@
+# Ignore environment variable files
+.env
+.env.local
+.env.*
+env/
+
+# Ignore dependency folders (optional but recommended)
+node_modules/
+venv/
+.venv/
+__pycache__/
+*.pyc
